@@ -23,4 +23,14 @@ Difference between these two.
 
 ### Data Types
 
-
+| Premtive DataTypes | Non Primtive DataTypes |
+| -------------      | ------------- |
+|    Strings         | Object        |
+|    Numbers         |               |
+| -------------      | ------------- |
+|    Boolean         | Object        |
+|    Undefined  
+|    NULL            |                |
+| -------------      | ------------- |
+|    BigInt          | Object        |
+|    Symbol          |               |
