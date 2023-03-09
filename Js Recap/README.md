@@ -27,10 +27,8 @@ Difference between these two.
 | -------------      | ------------- |
 |    Strings         | Object        |
 |    Numbers         |               |
-| -------------      | ------------- |
 |    Boolean         | Object        |
-|    Undefined  
-|    NULL            |                |
-| -------------      | ------------- |
+|    Undefined       |               |
+|    NULL            |               |
 |    BigInt          | Object        |
 |    Symbol          |               |
