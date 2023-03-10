@@ -1,3 +1,5 @@
+# Basic JavaScript Recap
+
 ### What is JavaScript?
 - JavaScript is a high level (often) just-in-time compiled programming language that conforms ECMAScript specification.
 - JavaScript, alongside HTML and CSS is one of the core technologies of the world wide web.
@@ -81,7 +83,7 @@ An operator is a special symbol used to perform operations on values and variabl
 
 ### Scope 
 - Scope basically determines the accessiblity of variables.
-- <b> Block Scope - let and const variables can only be accessed in the blocks they are declared
+- <b>Block Scope - let and const variables can only be accessed in the blocks they are declared
 - <b> Function Scope
 - <b> Global Scope
 
