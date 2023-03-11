@@ -92,8 +92,8 @@ const person = {
 //     this.lastName = lName
 // }
 
-// const person1 = new Person("Bruce", "Wane")  // constructor
-// const person2 = new Person("Hello", "Man")
+// // const person1 = new Person("Bruce", "Wane")  // constructor
+// // const person2 = new Person("Hello", "Man")
 
 // Person.prototype.getFullName = function () {
 //     return this.firstName + ' ' + this.lastName
@@ -102,3 +102,87 @@ const person = {
 // console.log(person2.getFullName())
 
 //36.59
+
+// function SuperHero(fName, lName) {
+//     Person.call(this, fName, lName)
+//     this.isSuperHero = true
+// }
+
+// SuperHero.prototype.fightCrime = function () {
+//     console.log("Fight Crime")
+// }
+
+// SuperHero.prototype = Object.create(Person.prototype)
+
+// const batman = new SuperHero('Bruce', "Wane")
+// SuperHero.prototype.constructor = SuperHero
+// console.log(batman.getFullName())
+
+
+// Class
+
+
+// class Person {
+//     constructor(fName, lName) {
+//         this.firstName = fName
+//         this.lastName = lName
+//     }
+//     sayMyName() {
+//         return this.firstName + " " + this.lastName
+//     }
+// }
+
+
+// const classP1 = new Person("Bruce", "Wane")
+// console.log(classP1.sayMyName())
+
+//Inheritance with class
+
+// class SuperHero extends Person {
+//     constructor(fName, lName) {
+//         super(fName, lName)
+//         this.isSuperHero = true
+//     }
+
+//     fightCrime() {
+//         console.log("Fighting crime")
+//     }
+// }
+
+// const batman = new SuperHero("Bruce", "Wane")
+
+// console.log(batman.sayMyName())
+
+// Iterables and Iterators
+// const obj = {
+//     [Symbol.iterator]: function () {
+//         let step = 0
+//         const iterator = {
+//             next: function () {
+//                 step++
+//                 if (step == 1) {
+//                     return { value: "Hello", done: false }
+//                 } else if (step == 2) {
+//                     return { value: "World", done: false }
+//                 }
+//                 return { value: undefined, done: true }
+//             }
+//         }
+//         return iterator
+//     }
+// }
+
+// for (const word of obj) {
+//     console.log(word)
+// }
+
+function* generatorFunction() {
+    yield 'Hello';
+    yield 'World'
+}
+
+const generatorObject = generatorFunction()
+
+for (const word of generatorObject) {
+    console.log(word)
+}

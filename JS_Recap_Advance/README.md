@@ -34,9 +34,17 @@
 - In javascript every function has a property called prototype which is object. With the protoype we can invoke every object os function functions with just one function.
 - a constructor function which is used with the new keyword is called a constructor function.
 - One of the use of prototype is to share properties and methods accross instances.
-- 
 
 ### Prototypal inheritance
 ### Class
+- an advance way of prototype inheritance
 ### Iterables and Iterators
-### Generators 
+- Strings, Arrays, Sets, Maps - Built in iterators - DSA
+
+- An object which implemeents the iterable protocol is called an iterable
+- For an object to be an iterable it must implement a method at the key [Symbol.iterator]
+- That method should not accept any arguments and should return an object which conforms to iterator protocol
+- The object mus have a next() method that returns an object with two peoperties.
+### Generators
+
+- A generator function is kind of function than can stop in midway and then continue from where its stopped. Execution is not continuos.
