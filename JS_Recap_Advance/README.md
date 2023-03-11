@@ -19,8 +19,24 @@
 - composing new functions easily
 
 ### This Keyword
+- The Javacript this keyword used in a function, refers to the object it belongs to
+- It makes function resuabke by letting you decide the object value
+- this value is determined entirely by how a function is called.
+
+- *** How to determine 'this'
+    1. Implicit Binding
+    2. Explicit Binding
+    3. New binding
+    4. Default Binding
+#### Order NEID
+
 ### Prototype 
+- In javascript every function has a property called prototype which is object. With the protoype we can invoke every object os function functions with just one function.
+- a constructor function which is used with the new keyword is called a constructor function.
+- One of the use of prototype is to share properties and methods accross instances.
+- 
+
 ### Prototypal inheritance
 ### Class
 ### Iterables and Iterators
-### Generators
+### Generators 
