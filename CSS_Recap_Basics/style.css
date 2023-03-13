@@ -1,0 +1,81 @@
+*{
+    color: blue;
+}
+
+
+.p1{
+    color: red;
+}
+
+
+.p2{
+    color: green;
+}
+
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+ul{
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+}
+
+.box-model{
+    border: 2px solid red;
+    height: 200px;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+th,td{
+    border-bottom: 1px solid #ccc
+}
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td{
+    text-align: center;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.c1{
+    border: 1px solid red;
+    display: inline;
+}
+.c2{
+    border: 1px solid blue;
+    display: block;
+}
+
+.p11{
+    border: 1px solid #ccc;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}
+
+.p22{
+    border: 1px solid blanchedalmond;
+    position: absolute;
+    bottom: 0px;
+    right:0px ;
+}
+.container{
+    position: relative;
+    width: 200px;
+    height: 2000px;
+    border: 1px solid black;
+}
+
+
