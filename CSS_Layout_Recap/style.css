@@ -1,0 +1,39 @@
+.boxmodel p,a{
+    /* width: 20%; */
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid skyblue;
+    display: flex;
+    flex-direction: row;
+}
+
+ .dockflow p{
+    width: 100%;
+    background-color: skyblue;
+    font-family: arial;
+    line-height: 20px;
+
+}
+
+
+.blue{
+    background-color: blue;
+    float: right;
+}
+ 
+.red{
+    background-color: red;
+    float: left;
+    margin: 10px;
+}
+
+.green{
+    background-color: green;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+
+}
