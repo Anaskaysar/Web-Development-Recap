@@ -37,3 +37,24 @@
     width: 100px;
 
 }
+.wrapper{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.service h2, .service p{
+    color:#999;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.service{
+    
+    background-color: skyblue;
+    width: 29.33%;
+    margin:1%;
+    padding: 1%;
+    height: 140px;
+    float: left;
+}
