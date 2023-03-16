@@ -1,10 +1,11 @@
 import './App.css';
+import JsonHandler from './components/JsonHandler';
 // import CondRender from './components/CondRender';
 // import Handler from './components/Handler';
 // import Hello from './components/Hello';
 // import NameList from './components/NameList';
 // import Parent from './components/Parent';
-import PostForm from './components/PostForm';
+// import PostForm from './components/PostForm';
 // import PostList from './components/PostList';
 // import Greet from './components/Greet';
 function App() {
@@ -20,7 +21,9 @@ function App() {
       {/* <NameList></NameList> */}
 
       {/* <PostList/> */}
-      <PostForm/>
+      {/* <PostForm/> */}
+      <JsonHandler/>
+
     </div>
   );
 }
